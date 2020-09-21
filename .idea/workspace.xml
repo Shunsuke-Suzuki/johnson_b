@@ -26,13 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/api/v1/users/index.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/api/sessions/new.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/sessions/new.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/api/v1/users/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/users/index.json.jbuilder" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +187,7 @@
       <workItem from="1600653624074" duration="13000" />
       <workItem from="1600653662327" duration="727000" />
       <workItem from="1600661770422" duration="41000" />
-      <workItem from="1600661815658" duration="6370000" />
+      <workItem from="1600661815658" duration="6893000" />
     </task>
     <task id="LOCAL-00001" summary="create user table">
       <created>1600659937971</created>
@@ -222,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600662643468</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="users index 表示">
+      <created>1600670925526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600670925526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,13 +238,14 @@
     <MESSAGE value="create session controller" />
     <MESSAGE value="session ne　見れた" />
     <MESSAGE value="renderに変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="renderに変更" />
+    <MESSAGE value="users index 表示" />
+    <option name="LAST_COMMIT_MESSAGE" value="users index 表示" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="23" key="CommitChangelistDialog2" timestamp="1600662643225">
+    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1600670925202">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="306" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600662643225" />
+    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600670925202" />
     <state width="1440" height="233" key="GridCell.Tab.0.bottom" timestamp="1600663637843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
