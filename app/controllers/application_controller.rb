@@ -5,7 +5,7 @@ class ApplicationController < ActionController::API
 
   def logged_in_user
     unless logged_in?
-      redirect_to login_url
+      render json: { message: 'ok' }
     end
   end
 end
