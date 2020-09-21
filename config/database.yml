@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: root
+  password: password
+  pool: 5
+
+development:
+  <<: *default
+  database: johnson_b_development
+
+test:
+  <<: *default
+  database: johnson_b_test
+
+production:
+  <<: *default
+  database: johnson_b_production
+  username: johnson_b
+  password: <%= ENV['JOHNSON_B_DATABASE_PASSWORD'] %>
