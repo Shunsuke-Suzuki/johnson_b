@@ -5,8 +5,6 @@ module Api
     class UsersController < ApplicationController
       def index
         @users = User.all
-        # routingでformat jsonを指定しない場合は下記のコードでjson.jbuilderを見に行く
-        # render :index, formats: :json, handlers: :jbuilder
       end
 
       def show
@@ -20,10 +18,6 @@ module Api
         else
           render json: { mseeage: @user.errors.full_messages }
         end
-      end
-
-      def edit
-        @user = User.find(params[:id])
       end
 
       def update

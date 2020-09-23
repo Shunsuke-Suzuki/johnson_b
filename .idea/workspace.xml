@@ -25,8 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="user crud ok session連携未定">
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" afterDir="false" />
+    <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600680652929</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="session new 削除">
+      <created>1600822110205</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600822110205</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,13 +305,14 @@
     <MESSAGE value="show jbuilder" />
     <MESSAGE value="newアクション削除" />
     <MESSAGE value="user crud ok session連携未定" />
-    <option name="LAST_COMMIT_MESSAGE" value="user crud ok session連携未定" />
+    <MESSAGE value="session new 削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="session new 削除" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1600821950203">
+    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1600822109951">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600821950203" />
+    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600822109951" />
     <state width="1440" height="233" key="GridCell.Tab.0.bottom" timestamp="1600663637843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -351,10 +361,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="211" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1600663510938" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600821980912">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600822203137">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600821980912" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600822203137" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/johnson_b@Development__johnson_b.rcov" NAME="Development: johnson_b Coverage Results" MODIFIED="1600663634014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="johnson_b" />
