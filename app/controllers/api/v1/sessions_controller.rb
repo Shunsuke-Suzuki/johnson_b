@@ -3,10 +3,6 @@
 module Api
   module V1
     class SessionsController < ApplicationController
-      def new
-        render json: { message: 'ok' }
-      end
-
       def create
         user = User.find_by(email: params[:session][:email].downcase)
         if user&.authenticate(params[:session][:password])
