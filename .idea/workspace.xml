@@ -27,7 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/api/v1/users/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/users/show.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/users.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/users.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +193,7 @@
       <workItem from="1600653662327" duration="727000" />
       <workItem from="1600661770422" duration="41000" />
       <workItem from="1600661815658" duration="14122000" />
-      <workItem from="1601794045657" duration="3520000" />
+      <workItem from="1601794045657" duration="3710000" />
     </task>
     <task id="LOCAL-00001" summary="create user table">
       <created>1600659937971</created>
@@ -300,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601799747252</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="最終行追加">
+      <created>1601799785834</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601799785834</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,13 +353,14 @@
     <MESSAGE value="routing typo 修正" />
     <MESSAGE value="users api doc" />
     <MESSAGE value="test 削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 削除" />
+    <MESSAGE value="最終行追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="最終行追加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1601799746981">
+    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1601799785565">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601799746981" />
+    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601799785565" />
     <state width="1440" height="233" key="GridCell.Tab.0.bottom" timestamp="1600663637843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -389,10 +397,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1601797977565" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1601799749052">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1601799788946">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601799749052" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601799788946" />
     <state x="422" y="200" width="596" height="522" key="find.popup" timestamp="1600665132169">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

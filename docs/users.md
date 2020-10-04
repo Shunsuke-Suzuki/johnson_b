@@ -2,7 +2,7 @@
 
 ## index
 ### エンドポイント
-[GET]/users
+[GET]api/v1/users
 ### レスポンス
 ```
 {
@@ -41,7 +41,7 @@
 
 ## show
 ### エンドポイント
-[GET]/users/:id
+[GET]api/v1/users/:id
 ### レスポンス
 ```
 {
@@ -57,7 +57,7 @@
 
 ## create
 ### エンドポイント
-[POST]/users
+[POST]api/v1/users
 ### リクエスト
 ```
 {
@@ -78,7 +78,7 @@
 
 ## update
 ### エンドポイント
-[PATCH]/users/:id
+[PATCH]api/v1/users/:id
 ### リクエスト
 ```
 {
@@ -97,7 +97,7 @@
 
 ## destroy
 ### エンドポイント
-[DELETE]/users/:id
+[DELETE]api/v1/users/:id
 ### レスポンス
 ```
 {
