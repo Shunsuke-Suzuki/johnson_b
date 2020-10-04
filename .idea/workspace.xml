@@ -25,14 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="">
+    <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="statusコード追加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/api/v1/users/edit.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/users/edit.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/api/v1/users/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/users/index.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/api/v1/users/show.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/users/show.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/users.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/users.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +194,8 @@
       <workItem from="1600653662327" duration="727000" />
       <workItem from="1600661770422" duration="41000" />
       <workItem from="1600661815658" duration="14122000" />
-      <workItem from="1601794045657" duration="5261000" />
+      <workItem from="1601794045657" duration="5834000" />
+      <workItem from="1601803368650" duration="1971000" />
     </task>
     <task id="LOCAL-00001" summary="create user table">
       <created>1600659937971</created>
@@ -319,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601800216243</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="statusコード追加">
+      <created>1601802603921</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601802603921</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,13 +371,14 @@
     <MESSAGE value="test 削除" />
     <MESSAGE value="最終行追加" />
     <MESSAGE value="エンドポイント 修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="エンドポイント 修正" />
+    <MESSAGE value="statusコード追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="statusコード追加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1601800215963">
+    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1601802753587">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601800215963" />
+    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601802753587" />
     <state width="1440" height="233" key="GridCell.Tab.0.bottom" timestamp="1600663637843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -410,10 +415,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1601797977565" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1601800217538">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1601803372188">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601800217538" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601803372188" />
+    <state x="100" y="123" width="1240" height="677" key="dock-window-1" timestamp="1601805716720">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="100" y="123" width="1240" height="677" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1601805716720" />
     <state x="422" y="200" width="596" height="522" key="find.popup" timestamp="1600665132169">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -422,10 +431,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="211" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1600663510938" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601801177819">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601804624822">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601801177819" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601804624822" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/johnson_b@Development__johnson_b.rcov" NAME="Development: johnson_b Coverage Results" MODIFIED="1600663634014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="johnson_b" />
