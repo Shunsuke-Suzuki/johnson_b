@@ -25,10 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="">
+    <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="add users-api-docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/api/v1/users/edit.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/users/edit.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/api/v1/users/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/v1/users/index.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/users.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/users.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -194,6 +196,7 @@
       <workItem from="1600653662327" duration="727000" />
       <workItem from="1600661770422" duration="41000" />
       <workItem from="1600661815658" duration="14122000" />
+      <workItem from="1601794045657" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="create user table">
       <created>1600659937971</created>
@@ -265,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600822110205</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add users-api-docs">
+      <created>1601794231763</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601794231763</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,13 +316,14 @@
     <MESSAGE value="newアクション削除" />
     <MESSAGE value="user crud ok session連携未定" />
     <MESSAGE value="session new 削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="session new 削除" />
+    <MESSAGE value="add users-api-docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add users-api-docs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1600822109951">
+    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1601795165883">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600822109951" />
+    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601795165883" />
     <state width="1440" height="233" key="GridCell.Tab.0.bottom" timestamp="1600663637843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -345,10 +356,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1440" height="233" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1600663637843" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1600661804877">
+    <state x="221" y="100" key="SettingsEditor" timestamp="1601795138475">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1600661804877" />
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1601795138475" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1600680656663">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -361,10 +372,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="211" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1600663510938" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600822203137">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601794844398">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600822203137" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601794844398" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/johnson_b@Development__johnson_b.rcov" NAME="Development: johnson_b Coverage Results" MODIFIED="1600663634014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="johnson_b" />
