@@ -26,9 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3ee500-9419-43f1-87de-5ff22ad74bed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/users.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/users.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +192,7 @@
       <workItem from="1600653662327" duration="727000" />
       <workItem from="1600661770422" duration="41000" />
       <workItem from="1600661815658" duration="14122000" />
-      <workItem from="1601794045657" duration="3219000" />
+      <workItem from="1601794045657" duration="3461000" />
     </task>
     <task id="LOCAL-00001" summary="create user table">
       <created>1600659937971</created>
@@ -280,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601795332373</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="routing typo 修正">
+      <created>1601799495348</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601799495348</updated>
+    </task>
+    <task id="LOCAL-00014" summary="users api doc">
+      <created>1601799514450</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601799514450</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,13 +335,15 @@
     <MESSAGE value="session new 削除" />
     <MESSAGE value="add users-api-docs" />
     <MESSAGE value="最終行に1行追加の設定" />
-    <option name="LAST_COMMIT_MESSAGE" value="最終行に1行追加の設定" />
+    <MESSAGE value="routing typo 修正" />
+    <MESSAGE value="users api doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="users api doc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1601795332055">
+    <state x="185" y="23" key="CommitChangelistDialog2" timestamp="1601799514196">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601795332055" />
+    <state x="185" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601799514196" />
     <state width="1440" height="233" key="GridCell.Tab.0.bottom" timestamp="1600663637843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -366,10 +380,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1601797977565" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1600680656663">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1601799517673">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1600680656663" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601799517673" />
     <state x="422" y="200" width="596" height="522" key="find.popup" timestamp="1600665132169">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -378,10 +392,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="385" y="211" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1600663510938" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601798884705">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1601799611102">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601798884705" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1601799611102" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/johnson_b@Development__johnson_b.rcov" NAME="Development: johnson_b Coverage Results" MODIFIED="1600663634014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="johnson_b" />
