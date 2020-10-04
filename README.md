@@ -1,24 +1,14 @@
-# README
+# Johnson & Johnson
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Backend Server Application
 
-Things you may want to cover:
+### Build
 
-* Ruby version
+```
+$ docker-compose build
+$ docker-compose run --rm web rake db:create
+$ docker-compose up
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Api Docs
+goto [HERE](docs/)
