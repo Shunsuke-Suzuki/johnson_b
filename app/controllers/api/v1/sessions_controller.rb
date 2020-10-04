@@ -7,15 +7,15 @@ module Api
         user = User.find_by(email: params[:session][:email].downcase)
         if user&.authenticate(params[:session][:password])
           log_in user
-          render json: { message: 'ok' }
+          render json: { message: 'ok', status: 1000 }
         else
-          render json: { message: 'ng' }
+          render json: { message: 'ng', status: 1200 }
         end
       end
 
       def destroy
         log_out if logged_in?
-        render json: { message: 'ok' }
+        render json: { message: 'ok', status: 1000 }
       end
     end
   end

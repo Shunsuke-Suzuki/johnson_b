@@ -1,5 +1,3 @@
-# json.array! @users, :name, :email
-
 json.users @users do |user|
   json.id user.id
   json.name user.name
@@ -7,3 +5,4 @@ json.users @users do |user|
   json.created_at user.created_at
   json.updated_at user.updated_at
 end
+  json.status 1000

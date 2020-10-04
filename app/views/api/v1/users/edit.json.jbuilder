@@ -5,3 +5,4 @@ json.user do
   json.created_at @user.created_at
   json.updated_at @user.updated_at
 end
+json.status 1000

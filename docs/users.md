@@ -35,7 +35,8 @@
             "created_at": "2020-09-22T11:28:08.603Z",
             "updated_at": "2020-09-22T11:28:08.603Z"
         }
-    ]
+    ],
+    "status": 1000
 }
 ```
 
@@ -51,7 +52,8 @@
         "email": "test@gmail.com",
         "created_at": "2020-09-22T11:28:00.356Z",
         "updated_at": "2020-09-22T11:28:00.356Z"
-    }
+    },
+    "status": 1000
 }
 ```
 
@@ -66,13 +68,14 @@
     "email": "test10@gmail.com",
     "password": "hogehoge",
     "password_confirmation": "hogehoge"
-  } 
+  }
 }
 ```
 ### レスポンス
 ```
 {
-    "message": "create ok"
+    "message": "create ok",
+    "status": 1000
 }
 ```
 
@@ -85,13 +88,14 @@
   "user": {
     "name": "test_user",
     "email": "test_update@gmail.com" 
-  } 
+  }
 }
 ```
 ### レスポンス
 ```
 {
-    "message": "update ok"
+    "message": "update ok",
+    "status": 1000
 }
 ```
 
@@ -101,6 +105,7 @@
 ### レスポンス
 ```
 {
-    "message": "user destroied"
+    "message": "user destroied",
+    "status": 1000
 }
 ```
